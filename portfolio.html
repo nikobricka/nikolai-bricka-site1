@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | Nikolai Bricka</title>
+  <meta name="description" content="Work samples from Nikolai Bricka: a chapter treasury system, a contract review control and analyzer app, a team marketing project and exposure to an Arizona RIA.">
+  <meta name="theme-color" content="#14233f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;family=Source+Sans+3:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Nikolai Bricka</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav aria-label="Main">
+        <ul class="nav-list" id="site-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="evolution.html">Evolution</a></li>
+          <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <p class="eyebrow">Work samples</p>
+        <h1>Portfolio</h1>
+        <p class="page-head__lead">Four pieces of work. Each one shows the context, my exact role, the skills involved and why it matters to a wealth management firm.</p>
+        <p class="muted small" style="margin-top: 1rem; max-width: 70ch;">Each card breaks the work down with STAR: Situation, Task, Action and Result. To protect the people involved, I leave out member names, vendor names, individual balances, settlement amounts, lease terms and legal details.</p>
+        <ul class="toc" aria-label="On this page">
+          <li><a href="#treasury">Chapter treasury system</a></li>
+          <li><a href="#contracts">Contract review and analyzer</a></li>
+          <li><a href="#mktg361">MKTG 361 team project</a></li>
+          <li><a href="#ria">RIA summer exposure</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <!-- 1. TREASURY -->
+        <article class="pcard" id="treasury" aria-labelledby="treasury-title">
+          <header class="pcard__head">
+            <span class="tag">Solo</span>
+            <h2 id="treasury-title">Chapter treasury system</h2>
+          </header>
+          <div class="pcard__body rows">
+            <div class="row">
+              <h3 class="row__label">Context</h3>
+              <div class="row__body"><p>I am the treasurer of the University of Arizona Delta Chi chapter. The role covers about $350K in annual chapter budget and about $250K in annual dues. Dues are the fees members pay to fund the chapter.</p></div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">My role</h3>
+              <div class="row__body"><p>This was a solo project. I led every part of it.</p></div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Skills</h3>
+              <div class="row__body">
+                <ul class="chips"><li class="chip">Budgeting</li><li class="chip">Fee design</li><li class="chip">Policy writing</li><li class="chip">Platform migration</li><li class="chip">Cash management</li><li class="chip">Collections</li></ul>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">STAR</h3>
+              <div class="row__body">
+                <dl class="star">
+                  <div><dt>Situation</dt><dd>The chapter runs on about $350K in annual budget, funded by about $250K in annual dues. I am responsible for both.</dd></div>
+                  <div><dt>Task</dt><dd>Collect dues, control spending and keep the chapter&rsquo;s cash working.</dd></div>
+                  <div><dt>Action</dt><dd>
+                    <ul>
+                      <li>Led the migration of the chapter&rsquo;s payments from its previous platform to LegFi, a platform that collects member payments and tracks invoices.</li>
+                      <li>Designed tiered dues with grandfathering. Tiered means dues are set at different levels. Grandfathering means existing members keep the terms they already had when a new structure starts.</li>
+                      <li>Wrote a budget accountability policy that ties dues adjustments to the spending of budget holders, the members who spend from the chapter budget.</li>
+                      <li>Opened a savings account for idle funds.</li>
+                    </ul></dd></div>
+                  <div><dt>Result</dt><dd>93% dues collection on about $250K in annual dues. The collection rate is the share of billed dues that members pay.</dd></div>
+                </dl>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Files and images</h3>
+              <div class="row__body">
+                <figure class="figure figure--single">
+                  <img src="assets/legfi-payments.png" width="776" height="375" loading="lazy" alt="LegFi incoming payments screen. A bar chart shows monthly payments collected from July to December 2026. The collected total is covered by a solid box.">
+                  <figcaption>LegFi payments view. I covered the collected total with a solid box.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Why it matters</h3>
+              <div class="row__body"><p class="callout">A wealth firm bills for its services, tracks what it collects and puts idle cash to work. This project shows I can build that process and hold people accountable for spending.</p></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. CONTRACTS -->
+        <article class="pcard" id="contracts" aria-labelledby="contracts-title">
+          <header class="pcard__head">
+            <span class="tag">Solo</span><span class="tag">Technology sample</span>
+            <h2 id="contracts-title">Contract review control and contract analyzer app</h2>
+          </header>
+          <div class="pcard__body rows">
+            <div class="row">
+              <h3 class="row__label">Context</h3>
+              <div class="row__body"><p>A chapter contract was signed without treasurer review. Venue, catering, DJ and transportation contracts carry payment terms and cancellation fees that affect the chapter&rsquo;s budget.</p></div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">My role</h3>
+              <div class="row__body"><p>This was a solo project. I designed the process and built the app myself.</p></div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Skills</h3>
+              <div class="row__body">
+                <ul class="chips"><li class="chip">Process design</li><li class="chip">Contract risk spotting</li><li class="chip">Web development</li><li class="chip">Plain-English communication</li></ul>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">STAR</h3>
+              <div class="row__body">
+                <dl class="star">
+                  <div><dt>Situation</dt><dd>A chapter contract was signed without treasurer review.</dd></div>
+                  <div><dt>Task</dt><dd>Make sure the treasurer reviews every contract before it is executed.</dd></div>
+                  <div><dt>Action</dt><dd>
+                    <ul>
+                      <li>Created a formal process that requires treasurer approval before any contract is executed.</li>
+                      <li>Built a contract analyzer app with two tools. React is a JavaScript tool for building web apps. The Anthropic API is a service that lets software use the Claude AI model. The app reads venue, catering, DJ and transportation contracts. It flags payment terms, cancellation fees and red flags in plain English.</li>
+                    </ul></dd></div>
+                  <div><dt>Result</dt><dd>The analyzer has helped with negotiation and with contract edit requests.</dd></div>
+                </dl>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Files and images</h3>
+              <div class="row__body">
+                <figure class="figure figure--single">
+                  <img src="assets/contract-analyzer-input.png" width="975" height="501" loading="lazy" alt="Contract Analyzer app input screen with Paste Text and Upload PDF tabs, a text box for contract text and three cards for payment terms, cancellation fees and red flags.">
+                  <figcaption>Input screen of the analyzer.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Why it matters</h3>
+              <div class="row__body"><p class="callout">Advisors read fee schedules and cancellation terms on behalf of clients. Checking terms before money moves is basic client protection, and I built a control for it.</p></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. MKTG 361 -->
+        <article class="pcard" id="mktg361" aria-labelledby="mktg-title">
+          <header class="pcard__head">
+            <span class="tag">Team leader</span>
+            <h2 id="mktg-title">MKTG 361 Integrated Team Project</h2>
+          </header>
+          <div class="pcard__body rows">
+            <div class="row">
+              <h3 class="row__label">Context</h3>
+              <div class="row__body"><p>MKTG 361 is a marketing course at the University of Arizona. Its integrated team project runs in phases. This sample is Phase 1, a SWOT analysis of Minute Maid. A SWOT analysis lists a company&rsquo;s strengths, weaknesses, opportunities and threats.</p></div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">My role</h3>
+              <div class="row__body"><p>I led a team of six. I contribute to each deliverable, then polish the full assignment and submit it. In this SWOT I wrote the Opportunities and Threats sections and assisted with Strengths and Weaknesses.</p></div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Skills</h3>
+              <div class="row__body">
+                <ul class="chips"><li class="chip">Team leadership</li><li class="chip">Market analysis</li><li class="chip">Editing and quality control</li><li class="chip">Written communication</li></ul>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">STAR</h3>
+              <div class="row__body">
+                <dl class="star">
+                  <div><dt>Situation</dt><dd>My MKTG 361 team of six had to deliver a Phase 1 SWOT analysis of Minute Maid.</dd></div>
+                  <div><dt>Task</dt><dd>Lead the team and submit a polished final assignment.</dd></div>
+                  <div><dt>Action</dt><dd>I contributed to each deliverable, then polished the full assignment and submitted it. In the SWOT, I wrote the Opportunities and Threats sections and assisted with Strengths and Weaknesses.</dd></div>
+                </dl>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Files and images</h3>
+              <div class="row__body">
+                <figure class="figure figure--single">
+                  <img src="assets/mktg361-swot.png" width="878" height="578" loading="lazy" alt="SWOT matrix for Minute Maid. Strengths include strong brand recognition. Weaknesses include added sugar in some products. Opportunities include growing demand for zero sugar products. Threats include a long-term decline in orange juice consumption.">
+                  <figcaption>Phase 1 SWOT analysis for Minute Maid.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Why it matters</h3>
+              <div class="row__body"><p class="callout">Planners coordinate other people&rsquo;s work and own the final product. I take responsibility for the quality of the whole deliverable, not just my part.</p></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. RIA -->
+        <article class="pcard" id="ria" aria-labelledby="ria-title">
+          <header class="pcard__head">
+            <span class="tag">Summer 2026</span>
+            <h2 id="ria-title">RIA summer exposure</h2>
+          </header>
+          <div class="pcard__body rows">
+            <div class="row">
+              <h3 class="row__label">Context</h3>
+              <div class="row__body"><p>In summer 2026 I completed a mini internship shadowing the founder of an Arizona RIA. An RIA, or registered investment advisor, is a firm registered to give investment advice. It is legally required to put its clients&rsquo; interests first.</p></div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">My role</h3>
+              <div class="row__body"><p>I shadowed the founder and observed the firm&rsquo;s daily work. I also helped launch the firm&rsquo;s LinkedIn presence.</p></div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Skills</h3>
+              <div class="row__body">
+                <ul class="chips"><li class="chip">Client onboarding awareness</li><li class="chip">Advisory technology</li><li class="chip">Compliance-aware communication</li></ul>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">STAR</h3>
+              <div class="row__body">
+                <dl class="star">
+                  <div><dt>Situation</dt><dd>Summer 2026 mini internship at an Arizona RIA.</dd></div>
+                  <div><dt>Task</dt><dd>Shadow the founder across the firm&rsquo;s daily work.</dd></div>
+                  <div><dt>Action</dt><dd>
+                    <ul>
+                      <li>Shadowed daily work and client onboarding, the steps that bring a new client into the firm.</li>
+                      <li>Sat in on virtual client meetings.</li>
+                      <li>Saw the firm&rsquo;s tools: Tamarac, which is portfolio management and reporting software; MoneyGuidePro, which is financial planning software; and Schwab, a brokerage that holds client accounts for advisory firms.</li>
+                      <li>Helped launch the firm&rsquo;s LinkedIn presence within state and SEC advertising rules. The SEC is the Securities and Exchange Commission, the federal regulator of securities markets.</li>
+                    </ul></dd></div>
+                </dl>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="row__label">Why it matters</h3>
+              <div class="row__body"><p class="callout">I have seen how an advisory firm runs day to day. I also know that even a LinkedIn post at a firm like this follows regulatory rules.</p></div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <p class="footer__name">Nikolai Bricka</p>
+          <p>Accounting major, financial planning minor<br>University of Arizona, Eller College of Management<br>Phoenix, Arizona</p>
+        </div>
+        <div>
+          <h2 class="footer__title">Pages</h2>
+          <ul class="footer__list">
+            <li><a href="about.html">About</a></li>
+            <li><a href="evolution.html">Evolution</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="footer__title">Contact</h2>
+          <ul class="footer__list">
+            <li><a href="mailto:nikolaibricka@arizona.edu">nikolaibricka@arizona.edu</a></li>
+            <li><a href="https://www.linkedin.com/in/nikolai-bricka" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__fine">
+        <p>I am pursuing the CFP credential and do not hold it yet. Nothing on this site is investment advice.</p>
+        <p>&copy; 2026 Nikolai Bricka</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
